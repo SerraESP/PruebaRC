@@ -1,0 +1,48 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#hasParent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#Jesús",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#hasParent" : [ {
+    "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#Manuel"
+  }, {
+    "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#Raul"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#Parent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#Manuel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#Parent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#Parent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#Raul",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/serra/ontologies/2022/3/untitled-ontology-3#hasParent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+} ]
